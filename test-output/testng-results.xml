@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-05T18:32:52 EET" name="Default suite" finished-at="2025-05-05T18:33:44 EET" duration-ms="52017">
+    <groups>
+    </groups>
+    <test started-at="2025-05-05T18:32:52 EET" name="Default test" finished-at="2025-05-05T18:33:44 EET" duration-ms="52017">
+      <class name="MyTestCase.Task">
+        <test-method is-config="true" signature="PreTesting()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:52 EET" name="PreTesting" finished-at="2025-05-05T18:32:53 EET" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreTesting -->
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:53 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:32:53 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method signature="singUpTest()[pri:1, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:53 EET" name="singUpTest" finished-at="2025-05-05T18:32:56 EET" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singUpTest -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:56 EET" name="waitBetweenTests" finished-at="2025-05-05T18:32:59 EET" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method signature="loginTest()[pri:2, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:59 EET" name="loginTest" finished-at="2025-05-05T18:33:00 EET" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:59 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:32:59 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:00 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:03 EET" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method signature="contactTest()[pri:3, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:03 EET" name="contactTest" finished-at="2025-05-05T18:33:05 EET" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTest -->
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:03 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:03 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:05 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:08 EET" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:08 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:08 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method signature="productTest()[pri:4, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:08 EET" name="productTest" finished-at="2025-05-05T18:33:13 EET" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:13 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:16 EET" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:16 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:16 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method signature="cartAndCheckoutTest()[pri:5, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:16 EET" name="cartAndCheckoutTest" finished-at="2025-05-05T18:33:23 EET" duration-ms="7637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartAndCheckoutTest -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:23 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:26 EET" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:26 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:26 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method signature="categoriesTest()[pri:6, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:26 EET" name="categoriesTest" finished-at="2025-05-05T18:33:41 EET" duration-ms="14852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesTest -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:41 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:44 EET" duration-ms="3000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method is-config="true" signature="PostTesting()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:44 EET" name="PostTesting" finished-at="2025-05-05T18:33:44 EET" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostTesting -->
+      </class> <!-- MyTestCase.Task -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
