@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="6" passed="0" failed="2" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-09T18:20:38 EET" name="Default suite" finished-at="2025-05-09T18:20:47 EET" duration-ms="9587">
+  <suite started-at="2025-05-09T18:30:12 EET" name="Default suite" finished-at="2025-05-09T18:30:21 EET" duration-ms="9712">
     <groups>
     </groups>
-    <test started-at="2025-05-09T18:20:38 EET" name="Default test" finished-at="2025-05-09T18:20:47 EET" duration-ms="9587">
+    <test started-at="2025-05-09T18:30:12 EET" name="Default test" finished-at="2025-05-09T18:30:21 EET" duration-ms="9712">
       <class name="MyTestCase.Task">
-        <test-method is-config="true" signature="PreTesting()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:38 EET" name="PreTesting" finished-at="2025-05-09T18:20:39 EET" duration-ms="1086" status="PASS">
+        <test-method is-config="true" signature="PreTesting()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:12 EET" name="PreTesting" finished-at="2025-05-09T18:30:13 EET" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreTesting -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:39 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:39 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:13 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:30:13 EET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method signature="singUpTest()[pri:1, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:39 EET" name="singUpTest" finished-at="2025-05-09T18:20:41 EET" duration-ms="2369" status="FAIL">
+        <test-method signature="singUpTest()[pri:1, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:13 EET" name="singUpTest" finished-at="2025-05-09T18:30:15 EET" duration-ms="2387" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[FAILL expected [true] but found [false]]]>
@@ -59,11 +59,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singUpTest -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:41 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:44 EET" duration-ms="3005" status="PASS">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:15 EET" name="waitBetweenTests" finished-at="2025-05-09T18:30:18 EET" duration-ms="3012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method signature="loginTest()[pri:2, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:44 EET" name="loginTest" finished-at="2025-05-09T18:20:44 EET" duration-ms="28" status="FAIL">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:18 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:30:18 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method signature="loginTest()[pri:2, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:18 EET" name="loginTest" finished-at="2025-05-09T18:30:18 EET" duration-ms="13" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : This user already exist.}
@@ -71,9 +75,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec414fd44423046c6cf2635cb9d65b79, findElement {value=#login2, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\emadh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50242}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50242/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec414fd44423046c6cf2635cb9d65b79]]>
+Command: [754797c31390844607fa5c6737e3b04c, findElement {value=#login2, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\emadh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50678/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 754797c31390844607fa5c6737e3b04c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : This user already exist.}
@@ -81,9 +85,9 @@ Session ID: ec414fd44423046c6cf2635cb9d65b79]]>
 Build info: version: '4.31.0', revision: '1ef9f18787*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec414fd44423046c6cf2635cb9d65b79, findElement {value=#login2, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\emadh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50242}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50242/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec414fd44423046c6cf2635cb9d65b79
+Command: [754797c31390844607fa5c6737e3b04c, findElement {value=#login2, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\emadh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50678/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 754797c31390844607fa5c6737e3b04c
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
@@ -128,15 +132,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:44 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:44 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfPreviousFailed -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:44 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="3007" status="PASS">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:18 EET" name="waitBetweenTests" finished-at="2025-05-09T18:30:21 EET" duration-ms="3007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:30:21 EET" duration-ms="1" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping because a previous test failed.]]>
@@ -180,7 +180,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method signature="contactTest()[pri:3, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="contactTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method signature="contactTest()[pri:3, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="contactTest" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping because a previous test failed.]]>
@@ -224,47 +224,47 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactTest -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfPreviousFailed -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="waitBetweenTests" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method signature="productTest()[pri:4, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="productTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method signature="productTest()[pri:4, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="productTest" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productTest -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waitBetweenTests -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method signature="cartAndCheckoutTest()[pri:5, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="cartAndCheckoutTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="waitBetweenTests" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitBetweenTests -->
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method signature="cartAndCheckoutTest()[pri:5, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="cartAndCheckoutTest" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartAndCheckoutTest -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="waitBetweenTests" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method signature="categoriesTest()[pri:6, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="categoriesTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- categoriesTest -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method signature="categoriesTest()[pri:6, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="categoriesTest" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoriesTest -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="waitBetweenTests" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method is-config="true" signature="PostTesting()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="PostTesting" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="PostTesting()[pri:0, instance:MyTestCase.Task@3d9f6567]" started-at="2025-05-09T18:30:21 EET" name="PostTesting" finished-at="2025-05-09T18:30:21 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostTesting -->

@@ -7,9 +7,9 @@
         <methods>
           <include name="waitBetweenTests"/>
           <include name="categoriesTest"/>
-          <include name="singUpTest"/>
-          <include name="loginTest"/>
           <include name="checkIfPreviousFailed"/>
+          <include name="loginTest"/>
+          <include name="singUpTest"/>
           <include name="contactTest"/>
           <include name="cartAndCheckoutTest"/>
           <include name="PreTesting"/>
