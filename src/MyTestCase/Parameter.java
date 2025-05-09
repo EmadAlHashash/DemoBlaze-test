@@ -18,7 +18,7 @@ import org.testng.Assert;
 public class Parameter {
 	static WebDriver driver = new ChromeDriver();
 	static String myWebsite = "https://www.demoblaze.com/";
-	static String Username = "emadhashash2234sssw";
+	static String Username = "emadhashash2234ssswssss";
 	static String Password = "123456emad";
 	static String Name = "emad";
 	static String Country = "jordan";
