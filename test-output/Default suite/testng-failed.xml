@@ -5,15 +5,15 @@
     <classes>
       <class name="MyTestCase.Task">
         <methods>
-          <include name="categoriesTest"/>
           <include name="waitBetweenTests"/>
-          <include name="loginTest"/>
+          <include name="categoriesTest"/>
           <include name="singUpTest"/>
+          <include name="loginTest"/>
           <include name="checkIfPreviousFailed"/>
           <include name="contactTest"/>
           <include name="cartAndCheckoutTest"/>
-          <include name="productTest"/>
           <include name="PreTesting"/>
+          <include name="productTest"/>
           <include name="PostTesting"/>
         </methods>
       </class> <!-- MyTestCase.Task -->

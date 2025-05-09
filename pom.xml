@@ -23,11 +23,6 @@
 	    <version>7.11.0</version>
 	    <scope>test</scope>
 	</dependency>
-	<dependency>
-		<groupId>SeleunimTask</groupId>
-		<artifactId>SeleunimTask</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</dependency>
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>

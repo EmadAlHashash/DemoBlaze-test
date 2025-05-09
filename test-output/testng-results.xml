@@ -1,89 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="0" failed="2" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-05T18:32:52 EET" name="Default suite" finished-at="2025-05-05T18:33:44 EET" duration-ms="52017">
+  <suite started-at="2025-05-09T18:20:38 EET" name="Default suite" finished-at="2025-05-09T18:20:47 EET" duration-ms="9587">
     <groups>
     </groups>
-    <test started-at="2025-05-05T18:32:52 EET" name="Default test" finished-at="2025-05-05T18:33:44 EET" duration-ms="52017">
+    <test started-at="2025-05-09T18:20:38 EET" name="Default test" finished-at="2025-05-09T18:20:47 EET" duration-ms="9587">
       <class name="MyTestCase.Task">
-        <test-method is-config="true" signature="PreTesting()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:52 EET" name="PreTesting" finished-at="2025-05-05T18:32:53 EET" duration-ms="987" status="PASS">
+        <test-method is-config="true" signature="PreTesting()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:38 EET" name="PreTesting" finished-at="2025-05-09T18:20:39 EET" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PreTesting -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:53 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:32:53 EET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:39 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:39 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method signature="singUpTest()[pri:1, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:53 EET" name="singUpTest" finished-at="2025-05-05T18:32:56 EET" duration-ms="2321" status="PASS">
+        <test-method signature="singUpTest()[pri:1, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:39 EET" name="singUpTest" finished-at="2025-05-09T18:20:41 EET" duration-ms="2369" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAILL expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAILL expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at MyTestCase.Parameter.singUp(Parameter.java:44)
+at MyTestCase.Task.singUpTest(Task.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singUpTest -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:56 EET" name="waitBetweenTests" finished-at="2025-05-05T18:32:59 EET" duration-ms="3009" status="PASS">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:41 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:44 EET" duration-ms="3005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method signature="loginTest()[pri:2, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:59 EET" name="loginTest" finished-at="2025-05-05T18:33:00 EET" duration-ms="1245" status="PASS">
+        <test-method signature="loginTest()[pri:2, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:44 EET" name="loginTest" finished-at="2025-05-09T18:20:44 EET" duration-ms="28" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : This user already exist.}
+  (Session info: chrome=136.0.7103.93): This user already exist.
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec414fd44423046c6cf2635cb9d65b79, findElement {value=#login2, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\emadh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50242}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50242/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec414fd44423046c6cf2635cb9d65b79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : This user already exist.}
+  (Session info: chrome=136.0.7103.93): This user already exist.
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ec414fd44423046c6cf2635cb9d65b79, findElement {value=#login2, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.93, chrome: {chromedriverVersion: 136.0.7103.92 (cb81a4cc5087..., userDataDir: C:\Users\emadh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50242}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50242/devtoo..., se:cdpVersion: 136.0.7103.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec414fd44423046c6cf2635cb9d65b79
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at MyTestCase.Parameter.login(Parameter.java:49)
+at MyTestCase.Task.loginTest(Task.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:32:59 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:32:59 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:44 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:44 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:00 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:03 EET" duration-ms="3005" status="PASS">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:44 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="3007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method signature="contactTest()[pri:3, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:03 EET" name="contactTest" finished-at="2025-05-05T18:33:05 EET" duration-ms="2352" status="PASS">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping because a previous test failed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping because a previous test failed.
+at MyTestCase.Task.checkIfPreviousFailed(Task.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method signature="contactTest()[pri:3, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="contactTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping because a previous test failed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping because a previous test failed.
+at MyTestCase.Task.checkIfPreviousFailed(Task.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactTest -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:03 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:03 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:05 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:08 EET" duration-ms="3015" status="PASS">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:08 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:08 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfPreviousFailed -->
-        <test-method signature="productTest()[pri:4, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:08 EET" name="productTest" finished-at="2025-05-05T18:33:13 EET" duration-ms="4292" status="PASS">
+        <test-method signature="productTest()[pri:4, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="productTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productTest -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:13 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:16 EET" duration-ms="3004" status="PASS">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:16 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:16 EET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfPreviousFailed -->
-        <test-method signature="cartAndCheckoutTest()[pri:5, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:16 EET" name="cartAndCheckoutTest" finished-at="2025-05-05T18:33:23 EET" duration-ms="7637" status="PASS">
+        <test-method signature="cartAndCheckoutTest()[pri:5, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="cartAndCheckoutTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartAndCheckoutTest -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:23 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:26 EET" duration-ms="3009" status="PASS">
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:26 EET" name="checkIfPreviousFailed" finished-at="2025-05-05T18:33:26 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkIfPreviousFailed -->
-        <test-method signature="categoriesTest()[pri:6, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:26 EET" name="categoriesTest" finished-at="2025-05-05T18:33:41 EET" duration-ms="14852" status="PASS">
+        <test-method signature="categoriesTest()[pri:6, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="categoriesTest" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categoriesTest -->
-        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:41 EET" name="waitBetweenTests" finished-at="2025-05-05T18:33:44 EET" duration-ms="3000" status="PASS">
+        <test-method is-config="true" signature="checkIfPreviousFailed()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="checkIfPreviousFailed" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPreviousFailed -->
+        <test-method is-config="true" signature="waitBetweenTests()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="waitBetweenTests" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitBetweenTests -->
-        <test-method is-config="true" signature="PostTesting()[pri:0, instance:MyTestCase.Task@23aa363a]" started-at="2025-05-05T18:33:44 EET" name="PostTesting" finished-at="2025-05-05T18:33:44 EET" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="PostTesting()[pri:0, instance:MyTestCase.Task@c055c54]" started-at="2025-05-09T18:20:47 EET" name="PostTesting" finished-at="2025-05-09T18:20:47 EET" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostTesting -->
